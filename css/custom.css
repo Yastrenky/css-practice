@@ -1,0 +1,75 @@
+.logo {
+  color: red;
+}
+
+nav .menu-item {
+  color: green;
+}
+
+nav .menu-item:visited {
+  color: #444;
+}
+
+.above-the-fold p {
+  color: white;
+}
+
+.above-the-fold button {
+  background-color: #42f49b;
+  color: white;
+}
+.section-header:hover{
+  text-transform: uppercase;
+
+}
+.section-header::before{
+  content: '>';
+  margin-right: 4px;
+}
+.blog-articule p::first-letter {
+  margin-left: 30px;
+}
+
+.blog {
+  background-color: #666;
+  color: #cff;
+}
+
+.gallery figure:hover {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, .5);
+  tra
+}
+
+.gallery figcaption {
+  padding: 8px;
+}
+
+article {
+  margin-top: 40px;
+  max-width: 800px;
+  margin-right: auto;
+  margin: auto;
+}
+
+.article-title {
+text-align: center;
+
+
+}
+.form-input{
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+}
+footer{
+  background-color: rgba(0, 0, 0, .5);
+  color: #fcc067;
+}
+.form-input:focus{
+  border-width: 4px;
+
+}
+input[type="radio"]{
+  margin-left: 20px;
+  margin-top: 5px;
+}
